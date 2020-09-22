@@ -1,0 +1,32 @@
+{
+  "name": "iframe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/hacklover/owd-snake",
+  "author": {
+    "name": "hacklover",
+    "url": "https://hacklover.net"
+  },
+  "commands": true,
+  "windows": [
+    {
+      "name": "WindowSnake",
+      "title": "Web Plays Snake",
+      "icon": "web",
+      "color": "#37a5c4",
+      "externalUrl": "https://snake.hacklover.net",
+      "iframeUrl": "https://snake.hacklover.net/?host=https://snake.hacklover.net",
+      "window": {
+        "menu": true,
+        "closed": true,
+        "minimized": false,
+        "resizable": false,
+        "width": 728,
+        "height": 510,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}
