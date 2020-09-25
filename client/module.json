@@ -2,7 +2,7 @@
   "name": "iframe",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://github.com/hacklover/owd-snake",
+  "homepage": "https://github.com/hacklover/owd-iframe",
   "author": {
     "name": "hacklover",
     "url": "https://hacklover.net"
@@ -10,7 +10,7 @@
   "commands": true,
   "windows": [
     {
-      "name": "WindowSnake",
+      "name": "WindowSnake3D",
       "title": "Web Plays Snake",
       "icon": "web",
       "color": "#37a5c4",

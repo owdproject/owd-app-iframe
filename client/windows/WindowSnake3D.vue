@@ -5,7 +5,7 @@
 <script>
   import WindowIframe from "~/core/components/window/iframe/WindowIframe";
   export default {
-    name: "WindowSnake",
+    name: "WindowSnake3D",
     components: {WindowIframe},
     props: {
       data: Object
