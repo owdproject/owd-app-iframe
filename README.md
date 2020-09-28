@@ -20,4 +20,4 @@ It's a demo module that shows how to create an iframe window using the \<WindowI
 - Add the reference of this module into `owd-client/config/modules.json` 
 
 ## License
-This project is released under the [MIT License](LICENSE).
+This project is released under the [MIT License](LICENSE)
