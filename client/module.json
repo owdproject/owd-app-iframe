@@ -1,6 +1,6 @@
 {
   "name": "iframe",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "autostart": true,
   "singleton": true,
   "commands": true,
