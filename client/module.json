@@ -1,12 +1,8 @@
 {
   "name": "iframe",
   "version": "1.0.0",
-  "license": "MIT",
-  "homepage": "https://github.com/hacklover/owd-iframe",
-  "author": {
-    "name": "hacklover",
-    "url": "https://hacklover.net"
-  },
+  "autostart": true,
+  "singleton": true,
   "commands": true,
   "windows": [
     {
@@ -28,5 +24,11 @@
         "z": 0
       }
     }
-  ]
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hacklover/owd-iframe",
+  "author": {
+    "name": "hacklover",
+    "url": "https://hacklover.net"
+  }
 }
