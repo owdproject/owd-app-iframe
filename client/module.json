@@ -1,6 +1,6 @@
 {
   "name": "iframe",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "autostart": true,
   "singleton": true,
   "commands": true,
@@ -8,7 +8,7 @@
     {
       "name": "WindowSnake3D",
       "title": "Web Plays Snake",
-      "icon": "web",
+      "icon": "mdi-web",
       "color": "#37a5c4",
       "externalUrl": "https://snake.hacklover.net",
       "iframeUrl": "https://snake.hacklover.net/?host=https://snake.hacklover.net",
@@ -24,11 +24,5 @@
         "z": 0
       }
     }
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/hacklover/owd-iframe",
-  "author": {
-    "name": "hacklover",
-    "url": "https://hacklover.net"
-  }
+  ]
 }
