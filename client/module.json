@@ -11,7 +11,7 @@
       "icon": "mdi-web",
       "color": "#37a5c4",
       "externalUrl": "https://snake.hacklover.net",
-      "iframeUrl": "https://snake.hacklover.net/?host=https://snake.hacklover.net",
+      "iframeUrl": "https://snake.hacklover.net/?host=https://hacklover-snake-server.herokuapp.com",
       "window": {
         "menu": true,
         "closed": true,
