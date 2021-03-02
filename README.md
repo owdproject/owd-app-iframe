@@ -10,7 +10,7 @@
 </p>
 
 ## Demo
-[Try it out](https://hacklover.net), just open the terminal and type "iframe"
+[Try it out](https://hacklover.net/client), just open the terminal and type "iframe"
 
 ## Overview
 It's a demo module that shows how to create an iframe window using the \<WindowIframe> component.
