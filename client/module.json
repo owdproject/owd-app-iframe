@@ -1,30 +1,31 @@
 {
   "name": "iframe",
-  "version": "2.0.0",
+  "version": "2.0.0-alpha",
   "license": "MIT",
-  "homepage": "https://github.com/hacklover/owd-sample",
+  "homepage": "https://github.com/hacklover/owd-iframe",
   "author": {
     "name": "hacklover",
     "url": "https://github.com/hacklover"
   },
-  "autostart": true,
   "singleton": true,
-  "commands": true,
   "windows": [
     {
       "name": "WindowSnake3D",
       "title": "Web Plays Snake",
+      "category": "games",
       "icon": "mdi-web",
       "color": "#37a5c4",
       "externalUrl": "https://snake.hacklover.net",
       "iframeUrl": "https://snake.hacklover.net/?host=https://hacklover-snake-server.herokuapp.com",
-      "window": {
-        "menu": true,
-        "closed": true,
-        "minimized": false,
-        "resizable": false,
+      "menu": true,
+      "minimized": false,
+      "resizable": false,
+      "noContentSpacing": true,
+      "size": {
         "width": 728,
-        "height": 510,
+        "height": 510
+      },
+      "position": {
         "x": 0,
         "y": 0,
         "z": 0

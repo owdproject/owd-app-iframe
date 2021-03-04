@@ -1,6 +1,6 @@
-import {Module} from '@owd-client/core';
+import {ModuleApp} from '@owd-client/core';
 
-export default class IframeModule extends Module {
+export default class IframeModule extends ModuleApp {
   constructor(context) {
     super(context)
   }
@@ -8,7 +8,7 @@ export default class IframeModule extends Module {
   loadCommands({store}) {
     return {
       'iframe': function () {
-        store.dispatch('core/windows/windowOpen', 'WindowSnake3D');
+        store.dispatch('core/window/windowOpen', 'WindowSnake3D');
       },
     }
   }

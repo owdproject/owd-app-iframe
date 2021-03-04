@@ -17,7 +17,10 @@ It's a demo module that shows how to create an iframe window using the \<WindowI
 
 ## Quick install
 - Copy the content of the `client` module folder into `owd-client/src/modules/iframe`
-- Add the reference of this module into `owd-client/config/modules.json` 
+- Add the reference of this module into `owd-client/config/modules.json`
+
+## Compatibility
+- Open Web Desktop client v2.0.0-alpha.2
 
 ## License
 This project is released under the [MIT License](LICENSE)
