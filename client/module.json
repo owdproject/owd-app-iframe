@@ -13,7 +13,7 @@
       "name": "WindowSnake3D",
       "title": "Web Plays Snake",
       "category": "games",
-      "icon": "mdi-web",
+      "icon": "mdi-snake",
       "color": "#37a5c4",
       "externalUrl": "https://snake.hacklover.net",
       "iframeUrl": "https://snake.hacklover.net/?host=https://hacklover-snake-server.herokuapp.com",
