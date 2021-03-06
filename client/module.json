@@ -16,7 +16,6 @@
       "icon": "mdi-snake",
       "color": "#37a5c4",
       "externalUrl": "https://snake.hacklover.net",
-      "iframeUrl": "https://snake.hacklover.net/?host=https://hacklover-snake-server.herokuapp.com",
       "menu": true,
       "minimized": false,
       "resizable": false,
@@ -29,6 +28,9 @@
         "x": 0,
         "y": 0,
         "z": 0
+      },
+      "metaData": {
+        "iframeUrl": "https://snake.hacklover.net/?host=https://hacklover-snake-server.herokuapp.com"
       }
     }
   ]
