@@ -13,7 +13,12 @@
       "name": "WindowSnake3D",
       "title": "Web Plays Snake",
       "category": "games",
-      "icon": "mdi-snake",
+      "icon": {
+        "name": "mdi-snake",
+        "offset": {
+          "y": -2
+        }
+      },
       "color": "#37a5c4",
       "externalUrl": "https://snake.hacklover.net",
       "menu": true,
