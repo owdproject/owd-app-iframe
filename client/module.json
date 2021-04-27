@@ -24,6 +24,7 @@
       "menu": true,
       "minimized": false,
       "resizable": false,
+      "maximizable": true,
       "noContentSpacing": true,
       "size": {
         "width": 728,
