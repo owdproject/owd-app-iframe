@@ -2,6 +2,10 @@
 > An iframe module to show any page into Open Web Desktop
 
 <p>
+    <img src="media/demo.png" alt="OWD Iframe module module demo" />
+</p>
+
+<p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" /></a>
     <a href="https://github.com/owdproject/owd-client"><img src="https://img.shields.io/badge/owd-client-3A9CB6" /></a>
     <a href="https://github.com/topics/owd-modules"><img src="https://img.shields.io/badge/owd-modules-888" /></a>
