@@ -1,14 +1,7 @@
 <template>
-  <WindowIframe :window="window" />
+  <WindowIframe />
 </template>
 
-<script>
-  import WindowIframe from "@owd-client/core/src/components/window/iframe/WindowIframe";
-
-  export default {
-    components: {WindowIframe},
-    props: {
-      window: Object
-    }
-  }
+<script setup>
+import WindowIframe from "@owd-client/core/src/components/window/app/WindowAppIframe.vue";
 </script>
