@@ -8,13 +8,6 @@ export default class IframeModule extends ModuleApp {
   loadModule() {
     return {
       name: "iframe",
-      version: "2.0.0-alpha",
-      license: "MIT",
-      homepage: "https://github.com/hacklover/owd-iframe",
-      author: {
-        name: "hacklover",
-        url: "https://github.com/hacklover"
-      },
       singleton: true,
       windows: [
         {
