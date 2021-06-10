@@ -24,7 +24,7 @@ It's a demo module that shows how to create an iframe window using the \<WindowI
 - Add the reference of this module into `owd-client/config/modules.json`
 
 ## Compatibility
-- Open Web Desktop client v2.0.0-alpha.3
+- Open Web Desktop client v2.0.0-beta
 
 ## License
 This project is released under the [MIT License](LICENSE)
