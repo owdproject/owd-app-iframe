@@ -16,10 +16,7 @@ export default class IframeModule extends ModuleApp {
           title: "Web Plays Snake",
           category: "games",
           icon: {
-            name: "mdi-snake",
-            offset: {
-              y: -1
-            }
+            name: "mdi-snake"
           },
           color: "#37a5c4",
           externalUrl: "https://snake.hacklover.net",
