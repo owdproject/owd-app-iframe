@@ -20,11 +20,33 @@
 It's a demo module that shows how to create an iframe window using the \<WindowIframe> component.
 
 ## Quick install
-- Copy the content of the `client` module folder into `owd-client/src/modules/iframe`
-- Add the reference of this module into `owd-client/config/modules.json`
+- Move to your client folder, then
+  ```
+  # Enter modules app directory
+  cd src/modules/app/
+  
+  # Clone this repository
+  git clone https://github.com/hacklover/owd-app-iframe iframe
+  ```
+- Define this module in `owd-client/client.extensions.ts`
+  ```js
+  import AboutModule from "@owd-client/core/src/modules/app/about";
+  import DebugModule from "@owd-client/core/src/modules/app/debug";
+  import IframeModule from "~/modules/app/iframe/client";
+
+  export default {
+    app: {
+      modules: [
+        AboutModule,
+        DebugModule,
+        IframeModule,
+      ]
+    },
+    ...
+  ```
 
 ## Compatibility
-- Open Web Desktop client v2.0.0-beta
+- Open Web Desktop client v2.0.0-beta.1
 
 ## License
 This project is released under the [MIT License](LICENSE)
