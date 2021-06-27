@@ -5,7 +5,7 @@ import {OwdModuleAppLoadCommandsContext} from "@owd-client/types";
 import WindowSnake3D from "./windows/WindowSnake3D.vue";
 
 export default class IframeModule extends ModuleApp {
-  loadModule() {
+  setup() {
     return {
       name: "iframe",
       singleton: true,
@@ -43,7 +43,7 @@ export default class IframeModule extends ModuleApp {
     }
   }
 
-  loadCommands({store}: OwdModuleAppLoadCommandsContext) {
+  setupCommands({store}: OwdModuleAppLoadCommandsContext) {
     return {
       'iframe': function () {
         store.dispatch('core/window/windowOpen', 'WindowSnake3D');
