@@ -14,13 +14,12 @@ export default class IframeModule extends ModuleApp {
           component: WindowSnake3D,
           name: "WindowSnake3D",
           title: "Web Plays Snake",
-          category: "games",
+          category: "projects",
           icon: {
             name: "mdi-snake"
           },
           color: "#37a5c4",
-          externalUrl: "https://snake.hacklover.net",
-          menu: true,
+          externalUrl: "https://hacklover-snake-client.netlify.app",
           resizable: false,
           maximizable: true,
           size: {
@@ -36,7 +35,9 @@ export default class IframeModule extends ModuleApp {
             noContentSpacing: true,
           },
           metaData: {
-            iframeUrl: "https://snake.hacklover.net/?host=https://hacklover-snake-server.herokuapp.com"
+            iframe: {
+              src: "https://hacklover-snake-client.netlify.app/?host=https://hacklover-snake-server.herokuapp.com"
+            }
           }
         }
       ]
