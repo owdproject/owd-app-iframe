@@ -1,7 +1,11 @@
 <template>
-  <WindowIframe />
+  <WindowAppIframe :window="props.window" />
 </template>
 
 <script setup>
-import WindowIframe from "@owd-client/core/src/components/window/app/WindowAppIframe.vue";
+import WindowAppIframe from "@owd-client/core/src/components/window/app/WindowAppIframe.vue";
+
+const props = defineProps({
+  window: Object
+})
 </script>
