@@ -16,7 +16,7 @@ export default class IframeModule extends ModuleApp {
           title: "Web Plays Snake",
           category: "projects",
           icon: {
-            name: "mdi-snake"
+            name: "mdi mdi-snake"
           },
           color: "#37a5c4",
           externalUrl: "https://hacklover-snake-client.netlify.app",
